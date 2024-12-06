@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial;
+}
+
+body {
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+
+
+/* CLASES */
+
+.contenedor-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 1.5rem;
+    height: 20rem;
+
+    img {
+        height: 20rem;
+    }
+}
+
+.textUser {
+    padding: 0.4rem;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.guessBtn{
+    padding: 0.5rem;
+    color: white !important;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.guessBtn:hover {
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
